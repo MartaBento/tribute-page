@@ -5,9 +5,10 @@
   }
 
 /* timeline style */
-.img {
-    width: 50%;
+img {
+    width: 70%;
     height: auto;
+    display: block;
 
 }
 
