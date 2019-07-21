@@ -1,14 +1,26 @@
 
 * {
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
 
-/* timeline style */
-img {
-    width: 70%;
-    height: auto;
-    display: block;
+/* text details */
+#title{
+  text-align: center;
+  vertical-align: middle;
+}
+
+#intro-quote {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* image style */
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 
 }
 
@@ -16,7 +28,7 @@ img {
   /* Set a background color */
   body {
     background-color: #ffffff;
-    font-family: Helvetica, sans-serif;
+
   }
   
   /* The actual timeline (the vertical ruler) */
