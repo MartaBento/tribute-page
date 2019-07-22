@@ -4,14 +4,13 @@
     font-family: 'Roboto', sans-serif;
   }
 
-<<<<<<< HEAD
-/* timeline style */
-img {
-    display: block;
-    width: 70%;
-    height: auto;
-    
-=======
+.main {
+
+  background-color: white;
+  width: 200px;
+  padding: 25px;
+}
+
 /* text details */
 #title{
   text-align: center;
@@ -23,13 +22,21 @@ img {
   vertical-align: middle;
 }
 
+h2 {
+  margin-top: -10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+  text-align: center;
+}
+
 /* image style */
 #image {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
->>>>>>> f9d769d9ad5e70e179f20b14c45b04945b716a8e
+  width: 50%;
 
 }
 
@@ -37,6 +44,13 @@ img {
   /* Set a background color */
   body {
     background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    border-left: 50px solid rgb(0, 6, 59);
+    border-right: 50px solid rgb(0, 6, 59);
+    border-top: 50px solid rgb(0, 6, 59);
+    border-bottom: 50px solid rgb(0, 6, 59);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
 
   }
   
@@ -74,10 +88,10 @@ img {
     width: 25px;
     height: 25px;
     right: -17px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border: 4px solid rgb(0, 71, 163);
     top: 15px;
-    border-radius: 50%;
+    border-radius: 100%;
     z-index: 1;
   }
   
