@@ -1,15 +1,35 @@
 
 * {
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
 
+<<<<<<< HEAD
 /* timeline style */
 img {
     display: block;
     width: 70%;
     height: auto;
     
+=======
+/* text details */
+#title{
+  text-align: center;
+  vertical-align: middle;
+}
+
+#intro-quote {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* image style */
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+>>>>>>> f9d769d9ad5e70e179f20b14c45b04945b716a8e
 
 }
 
@@ -17,7 +37,7 @@ img {
   /* Set a background color */
   body {
     background-color: #ffffff;
-    font-family: Helvetica, sans-serif;
+
   }
   
   /* The actual timeline (the vertical ruler) */
