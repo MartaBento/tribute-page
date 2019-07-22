@@ -6,9 +6,10 @@
 
 /* timeline style */
 img {
+    display: block;
     width: 70%;
     height: auto;
-    display: block;
+    
 
 }
 
