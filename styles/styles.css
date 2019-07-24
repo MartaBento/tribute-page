@@ -5,8 +5,6 @@
   }
 
 .main {
-
-  background-color: white;
   width: 200px;
   padding: 25px;
 }
@@ -38,6 +36,12 @@ footer {
   margin-right: auto;
   width: 50%;
 
+}
+
+.text-intro {
+  text-align: center;
+  padding: 50px;
+  font-size: 20px;
 }
 
   /* timeline style */
@@ -185,7 +189,7 @@ footer {
 /* center the blockquote in the page */
 .blockquote-wrapper {
   display: flex;
-  height: 100vh;
+  height: 400px;
   padding: 0 20px;
 }
 
@@ -202,12 +206,12 @@ footer {
 .blockquote h1 {
   font-family: "Abril Fatface", cursive;
   position: relative; /* for pseudos */
-  color: #e74848;
-  font-size: 2.8rem;
+  color: rgb(0, 6, 59);
+  font-size: 36px;
   font-weight: normal;
   line-height: 1;
   margin: 0;
-  border: 2px solid rgb(0, 0, 0);
+  border: 2px solid rgb(45, 14, 131);
   border: solid 2px;
   border-radius: 20px;
   padding: 25px;
@@ -217,7 +221,7 @@ footer {
 .blockquote h1:after {
   content: "";
   position: absolute;
-  border: 2px solid #e74848;
+  border: 2px solid rgb(0, 6, 59);
   border-radius: 0 50px 0 0;
   width: 60px;
   height: 60px;
@@ -232,7 +236,6 @@ footer {
   content: "";
   position: absolute;
   width: 80px;
-  border: 6px solid #292a2b;
   bottom: -3px;
   left: 50px;
   z-index: 2;
@@ -241,7 +244,7 @@ footer {
 /* increase header size after 600px */
 @media all and (min-width: 600px) {
   .blockquote h1 {
-    font-size: 3rem;
+
     line-height: 1.2;
   }
 }
@@ -249,8 +252,8 @@ footer {
 /* Blockquote subheader */
 .blockquote h4 {
   position: relative;
-  color: #ffffff;
-  font-size: 1.3rem;
+  color: rgb(0, 0, 0);
+  font-size: 12px;
   font-weight: 400;
   line-height: 1.2;
   margin: 0;
@@ -263,4 +266,4 @@ footer {
 .blockquote h4:first-letter {
   margin-left: -12px;
 }
-  
+  /* https://codepen.io/jupago/pen/GPxqLX */
