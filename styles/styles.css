@@ -9,13 +9,17 @@
   padding: 25px;
 }
 
+#intro-quote {
+  text-align: center;
+}
+
 /* text details */
 #title{
   text-align: center;
   vertical-align: middle;
 }
 
-#intro-quote {
+#tribute-info {
   text-align: center;
   vertical-align: middle;
 }
@@ -35,6 +39,7 @@ footer {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  max-width: 100%;
 
 }
 
@@ -42,6 +47,10 @@ footer {
   text-align: center;
   padding: 50px;
   font-size: 20px;
+}
+
+#img-caption {
+  text-align: center;
 }
 
   /* timeline style */
